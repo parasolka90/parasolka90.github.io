@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://infinite-fortress-90029.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://api.trello.com/1/';
+  const trelloApiRoot = 'https://infinite-fortress-90029.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
